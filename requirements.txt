@@ -1,6 +1,3 @@
-setuptools 
-wheel 
-twine
-json
+pandas
 streamlit
 streamlit-lottie
