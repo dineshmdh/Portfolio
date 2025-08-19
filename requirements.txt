@@ -1,0 +1,6 @@
+setuptools 
+wheel 
+twine
+json
+streamlit
+streamlit-lottie

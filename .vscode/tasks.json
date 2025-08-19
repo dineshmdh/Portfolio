@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Streamlit App",
+      "type": "shell",
+      "command": "C:/Users/dines/OneDrive/Documents/Projects/Portfolio/venv/Scripts/python.exe -m streamlit run app.py",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
