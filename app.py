@@ -291,3 +291,6 @@ st.markdown(skills_html, unsafe_allow_html=True)
 st.write("---")
 st.subheader("Contact")
 st.write("Email: dinesh.mdh01@gmail.com | Phone: +1 (571) 337-8235")
+
+st.write("---")
+st.html("<i>I have used free lottie animations and ChatGPT5 to help me build this portfolio.</i>")
