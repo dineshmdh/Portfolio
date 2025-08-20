@@ -1,0 +1,57 @@
+/* Custom style for Project 1 box */
+.projectx-box {
+  background: linear-gradient(90deg, #f8ffae 0%, #43c6ac 100%);
+  border-radius: 14px;
+  padding: 20px 28px;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 1.08rem;
+  color: #222;
+  box-shadow: 0 2px 16px rgba(67,198,172,0.12);
+  margin-bottom: 24px;
+  border: 1px solid #43c6ac33;
+}
+/* Source: https://raw.githubusercontent.com/Sven-Bo/personal-website-streamlit/refs/heads/master/style/style.css
+/* CSS Snippet from W3schools: https://www.w3schools.com/howto/howto_css_contact_form.asp */
+/* Style inputs with type="text", select elements and textareas */
+input[type=message], input[type=email], input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* Hide Streamlit Branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+/* Custom style for highlighted intro text */
+.highlighted-intro {
+  background: linear-gradient(90deg, #e0eafc 0%, #cfdef3 100%);
+  border-radius: 12px;
+  padding: 24px 32px;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-size: 1.1rem;
+  color: #222;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  margin-bottom: 24px;
+}
