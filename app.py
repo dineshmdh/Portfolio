@@ -104,7 +104,7 @@ st.write("---")
 
 
 with st.container():
-    st.subheader("Project 2: Measuring Epigenetic Barriers: Chromatin Reprogramming Levels in MyoD activation induced myogenic conversion")
+    st.subheader("Project 2: Measuring Epigenetic Barriers: Chromatin Reprogramming Levels in myogenic cellular conversion")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
