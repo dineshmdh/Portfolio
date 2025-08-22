@@ -50,7 +50,7 @@ understanding of drugs and drug associated safety landscape</b>, as well as tran
 experience in investigating genomic, transcriptomic, epigenomic data probing target-drug-indication associations 
 and drug treatment effects using state of the art methods, statistical modeling and machine learning applications. 
 I also enjoy mentoring students and peers in analytical techniques and deliverables.<br><br>
-Below, I have highlighted some of my open-source projects and technical skills. For more details, please connect with me directly.<br><br>
+Below, I have highlighted some of my projects I led and technical skills. For more details, please connect with me directly.<br><br>
 Thank you.
 '''
 st.markdown(f'<div class="highlighted-intro">{intro_text}</div>', unsafe_allow_html=True)
@@ -104,7 +104,7 @@ st.write("---")
 
 
 with st.container():
-    st.subheader("Project 2: Measuring Epigenetic Barriers: Chromatin Reprogramming Levels in MyoD-Induced Conversion")
+    st.subheader("Project 2: Measuring Epigenetic Barriers: Chromatin Reprogramming Levels in MyoD activation induced myogenic conversion")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -278,14 +278,17 @@ skills_html = '''
         <li><b>SQL</b> for database management</li>
         <li><b>Data visualization and reporting</b> (Seaborn, Matplotlib, Plotly)</li>
         <li><b>Machine learning and statistical modeling</b> (Gaussian Processes, Random Forests, Neural Networks, Regression Models)</li>
+        <li> Currently training myself in Agentic AI applications and LLM deployment</li>
     </ul>
 </div>
 '''
 st.markdown(skills_html, unsafe_allow_html=True)
 
 
-        # * NGS or other data experience and expertise: Bulk / sc-RNA-seq, CITE-seq, bulk/sc-ATAC-seq, VDJ-seq, spectral-flow cytometry data, Flurospot, DNA-methylation, multi-modal integrative analysis. 
-        # * Programming expertise: Python (Pandas, TensorFlow), R, Bash, SLURM, AWS, DNA-Nexus, SQL
+
+
+# * NGS or other data experience and expertise: Bulk / sc-RNA-seq, CITE-seq, bulk/sc-ATAC-seq, VDJ-seq, spectral-flow cytometry data, Flurospot, DNA-methylation, multi-modal integrative analysis. 
+# * Programming expertise: Python (Pandas, TensorFlow), R, Bash, SLURM, AWS, DNA-Nexus, SQL
 
 st.write("---")
 st.subheader("Contact")
