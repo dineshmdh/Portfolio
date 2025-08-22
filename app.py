@@ -70,28 +70,27 @@ st.write("---")
 
 
 with st.container():
-    st.subheader("Project 1: CRISPR-Guided Discovery of Complementary Knockouts Enhancing T Cell Persistence and Function")
+    st.subheader("Project 1: CRISPR-Guided Discovery of Knockouts Enhancing T Cell Persistence and Functionality (Patent and Publication Pending)")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image("Images/genhancer_poster_top.png")
+        st.image("Images/genhancer_image_bing.jpeg")
     with text_column:
         project1_desc = '''
         <div class="projectx-box">
         <h4>Rationale</h4>
         <p>Adoptive T cell therapies are transforming oncology, but their success against solid tumors is limited by poor persistence, exhaustion, and a hostile tumor microenvironment. To systematically identify genetic barriers to durable T cell function, we implemented a high-throughput CRISPR-based loss-of-function screening platform across multiple model systems.</p>
         <h4>Screening & Analytics</h4>
-        <p>Using pooled CRISPR/Cas9 knockout libraries curated for relevance to T cell biology, we screened both CD3/CD28-stimulated primary T cells and PRAME-specific TCR-T cells. Phenotypic readouts included proliferation, stemness, and durability. In silico analysis with MAGeCK quantified guide enrichment and identified candidate hits across donors and models.</p>
+        <p>Using pooled CRISPR/Cas9 knockout libraries curated for relevance to T cell biology, we screened both CD3/CD28-stimulated primary T cells and tumor antigen specific TCR-T cells. Phenotypic readouts included proliferation, stemness, and durability. In silico analysis with MAGeCK quantified guide enrichment and identified candidate hits across donors and models.</p>
         <h4>Key Discoveries</h4>
         <ul>
-        <li><b>GenT01</b> emerged as the strongest enhancer of stemness, expansion, and memory-like phenotypes when inactivated.</li>
-        <li><b>GenT07</b> and <b>ZC3H12A</b> promoted metabolic fitness, cytokine secretion, and sustained tumor-killing capacity.</li>
-        <li>No single gene dominated across all phenotypes, underscoring the value of complementary hits.</li>
+        <li>Gene target aliased as <b> GenT01</b> emerged as the strongest enhancer of stemness, expansion, and memory-like phenotypes when inactivated.</li>
+        <li><b>GenT07</b> and <b>GenT10</b> promoted metabolic fitness, cytokine secretion, and sustained tumor-killing capacity.</li>
         </ul>
         <h4>🌟 Novelty of Dual Editing</h4>
-        <p>Dual knockouts (<b>GenT01/GenT07</b> or <b>GenT01/ZC3H12A</b>) synergized by retaining the stemness benefit of GenT01 loss while incorporating the functional/metabolic gains of GenT07 or ZC3H12A. This combinatorial editing markedly improved expansion, cytokine polyfunctionality, and tumor control in vitro and in vivo.</p>
+        <p>Dual knockouts (<b>GenT01/GenT07</b> or <b>GenT01/GenT10</b>) synergized by retaining the stemness benefit of GenT01 loss while incorporating the functional/metabolic gains of GenT07 or GenT10. This combinatorial editing markedly improved expansion, cytokine polyfunctionality, and tumor control in vitro and in vivo.</p>
         <h4>Translational Impact</h4>
-        <p>In xenograft and syngeneic models, GenT01/ZC3H12A dual knockout T cells exhibited superior peripheral persistence, enhanced tumor infiltration, and significantly improved tumor control compared to unedited or single KO cells.</p>
+        <p>In xenograft and syngeneic models, GenT01/GenT10 dual knockout T cells exhibited superior peripheral persistence, enhanced tumor infiltration, and significantly improved tumor control compared to unedited or single KO cells.</p>
         <h4>Significance</h4>
         <p>This work establishes a scalable screening and computational analysis pipeline for rationally prioritizing genetic modifications that enhance T cell therapies. The combination of functional genomics, in silico target discovery, and rigorous in vivo validation paves the way for integrating multiplex knockout strategies into next-generation adoptive T cell platforms.</p>
         </div>
@@ -170,7 +169,7 @@ with st.container():
         <h4>Validation on Simulations</h4>
         <p>Across &gt;1,100 simulated datasets spanning diverse <b>K</b>, length scales, signal/marginal variances, and even t-distributed noise, DPGP/fDPGP achieved higher ARI than hierarchical, k-means, BHC, Mclust, GIMM, and SplineCluster baselines.</p>
         <h4>Software & Reproducibility</h4>
-        <p>Open-source implementation is available (<a href="https://github.com/dineshmdh/predicting_gene_expression/tree/master" target="_blank">GitHub</a>), facilitating adoption in routine RNA-seq/microarray time-course workflows.</p>
+        <p>Open-source implementation is available (<a href="https://github.com/PrincetonUniversity/DP_GP_cluster" target="_blank">GitHub</a>), facilitating adoption in routine RNA-seq/microarray time-course workflows.</p>
         <h4>🌟 Novelty (Why This Matters)</h4>
         <ul>
         <li>Unified nonparametric, time-aware clustering; no need to pre-set K.</li>
@@ -293,4 +292,4 @@ st.subheader("Contact")
 st.write("Email: dinesh.mdh01@gmail.com | Phone: +1 (571) 337-8235")
 
 st.write("---")
-st.html("<i>I have used free lottie animations and ChatGPT5 to help me build this portfolio.</i>")
+st.html("<i>I have used free lottie animations, ChatGPT5 summarization and image creation to help me build this portfolio.</i>")
